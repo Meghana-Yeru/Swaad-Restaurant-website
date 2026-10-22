@@ -1,1 +1,69 @@
-<p>This is my new repo.</p>
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+      <div class="navbar">
+        <div class="nav-1">
+        <div class="logo">Swaad</div>
+            <ul class="links">
+              <li>Home</li>
+              <li>Menu</li>
+              <li>About</li>
+              <li>Location</li>
+              <li>Contact</li>
+            </ul>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        </div>
+        <div class="hero">
+            <div class="left">
+                <span class="left1">Are You Hungry?</span>
+                <span class="left2">Don't Wait</span>
+                <span class="left3">Let start to order food now</span>
+                <span class="left4">check out Menu</span>
+            </div>
+            <div class="food" id="food"></div>
+        </div>
+        <div class="items">
+            <div id="Food1"></div>
+            <div id="Food2"></div>
+            <div id="Food3"></div>
+            <div id="Food4"></div>
+            <div id="Food5"></div>
+        </div>
+    </div>
+    <script>
+        let Food=document.getElementById("Food");
+        let Food1=document.getElementById("Food1");
+        let Food2=document.getElementById("Food2");
+        let Food3=document.getElementById("Food3");
+        let Food4=document.getElementById("Food4");
+        let Food5=document.getElementById("Food5");
+        Food1.addEventListener('click',()=>{
+            food.style.backgroundImage="url('/images/Food1.png')";
+        });
+        Food2.addEventListener('click',()=>{
+            food.style.backgroundImage="url('/images/Food2.png')";
+        });
+        Food3.addEventListener('click',()=>{
+            food.style.backgroundImage="url('/images/Food3.png')";
+        });
+        Food4.addEventListener('click',()=>{
+            food.style.backgroundImage="url('/images/Food4.png')";
+        });
+        Food5.addEventListener('click',()=>{
+            food.style.backgroundImage="url('/images/Food5.png')";
+        });
+    </script>
+</body>
+</html>
